@@ -21,7 +21,7 @@ Make sure you have Python 3 installed. Then install the required Python packages
 pip install requests python-whois dnspython colorama pyfiglet
 ```
 # Note:
-- The tool automatically adds http:// if the URL scheme is missing.
+- The tool automatically adds https:// if the URL scheme is missing.
 - The WHOIS data may vary in availability depending on domain privacy settings.
 - DNS lookups may raise exceptions if records are missing or unreachable; errors are reported accordingly.
 - This is a static analysis tool and does not guarantee 100% phishing detection but helps highlight common red flags
